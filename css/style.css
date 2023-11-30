@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body, html {
+    width: 100%;
+    height: 100%;
+    background: #201D11;
+    }
+
+header {
+height: 75px;
+flex-shrink: 0;
+background: #D5D5D5;
+
+
+
+}
+
+.logo {
+width: 105px;
+height: 5px;
+flex-shrink: 0;
+color: #000;
+/* position: fixed; */
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+/* cursor: pointer; */
+
+}
+.dropdown a{
+    background:#D5D5D5;
+    color: #000000;
+        text-align: center;
+        /* Шрифт */
+        font-family: inherit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300px;
+        line-height: normal;
+        text-decoration-line: underline;
+        padding-top: 0%;
+}
+.menu {
+   
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+}
+.menu .menu_item {
+        margin: 0;
+}
+
+.menu_link {
+        color: #000000;
+        text-align: center;
+        /* Шрифт */
+        font-family: inherit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300px;
+        line-height: normal;
+        text-decoration-line: underline;
+    
+    
+}
+.button {
+    width: 75px;
+    height: 41px;
+    flex-shrink: 0;
+    float: right;
+    background: #201D1fcb;
+    border-radius: 15px;
+}
+.button a{
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: normal;
+}
+.main {
+        background-size: cover;
+    background-repeat: no-repeat;
+    background: #201d11 cover;
+    /* background-image: url("/img/фон.png") ; */
+    background-image: url("./img/фон.png") ;
+    height: 910px;
+    width: 100%;
+    flex-shrink: 0;
+
+}
+.main label{
+        text-indent: 15px;;
+        color: #FFF;
+        margin: 50px;
+        padding-top: 20px;
+        text-align:justify;
+        font-family:'Lora', serif;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+}
+.main p{
+        padding-top: 75px;
+        padding-right: 80px;
+        color: #FFF;
+        text-align: right;
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+}
+.main h1{
+        padding: 50px;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;   
+}
+.main .main_item{
+        padding-right: 29px;
+        padding-top: 0px;
+}
+.main .main_link{
+        color: #FFF;
+        text-align: center;
+        font-family: inherit;
+        font-size: 40px;
+        font-style:oblique;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        }
+        .main li{
+              text-align: end;
+              padding-top: 20px;
+              
+        }
+.container {
+       
+    background: #201d11; 
+}
+.containers{
+        background: #201d11;
+    height: 500px;
+        display: grid;
+  /* Автоматически заполняем на всю ширину grid-контейнера */
+  grid-template-columns: repeat(auto-fill, 225px);
+  width: 100%;
+  justify-content: start;
+  justify-items:start; /* Размещаем карточку по центру */
+  column-gap: 40px; /* Отступ между колонками */
+  row-gap: 40px; /* Отступ между рядами */
+  margin: 0 auto;
+}
+.product{
+        margin: 10px;
+        padding: 20px;  
+}
+.now h5{
+        color: #FFF;
+        padding-top: 43px;
+        padding-left: 80px;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+}
+.container h2{
+        color: #FFF;
+padding: 20px;
+text-align:center;
+font-family:'Courier New', Courier, monospace;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buy {
+    background: #201d11;
+}
+.buy h5{
+        color: #FFF;
+        padding-top: 43px;
+        padding-left: 100px;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+}
+.faq {
+    margin: 0px;
+    height: 160px;
+    flex-shrink: 0;
+    background: #D5D5D5;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.faq h3{
+        font-size: 32px;
+        font-style:normal;
+}
+.faq img{
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        margin: 25px 0px 0px 0px;
+}
+
