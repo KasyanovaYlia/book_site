@@ -23,22 +23,19 @@ width: 105px;
 height: 5px;
 flex-shrink: 0;
 color: #000;
-/* position: fixed; */
 text-align: center;
 font-family: 'Playfair Display', serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-/* cursor: pointer; */
 
 }
 .dropdown a{
     background:#D5D5D5;
     color: #000000;
         text-align: center;
-        /* Шрифт */
-        font-family: inherit;
+       font-family: inherit;
         font-size: 24px;
         font-style: normal;
         font-weight: 300px;
@@ -59,7 +56,6 @@ line-height: normal;
 .menu_link {
         color: #000000;
         text-align: center;
-        /* Шрифт */
         font-family: inherit;
         font-size: 24px;
         font-style: normal;
@@ -91,7 +87,6 @@ line-height: normal;
         background-size: cover;
     background-repeat: no-repeat;
     background: #201d11 cover;
-    /* background-image: url("/img/фон.png") ; */
     background-image: url("./img/фон.png") ;
     height: 910px;
     width: 100%;
@@ -153,25 +148,28 @@ line-height: normal;
               
         }
 .container {
-       
-    background: #201d11; 
+       height: 290px;
+       border: 2px solid #ffffffb9;
 }
 .containers{
         background: #201d11;
     height: 500px;
         display: grid;
-  /* Автоматически заполняем на всю ширину grid-контейнера */
   grid-template-columns: repeat(auto-fill, 225px);
   width: 100%;
   justify-content: start;
   justify-items:start; /* Размещаем карточку по центру */
-  column-gap: 40px; /* Отступ между колонками */
+  column-gap: 50px; /* Отступ между колонками */
   row-gap: 40px; /* Отступ между рядами */
-  margin: 0 auto;
+  margin: 10px;
 }
 .product{
         margin: 10px;
-        padding: 20px;  
+        padding: 3px;  
+}
+.product img{
+        height: 250px;
+        width: 170px;
 }
 .now h5{
         color: #FFF;
@@ -187,13 +185,15 @@ line-height: normal;
 }
 .container h2{
         color: #FFF;
-padding: 20px;
-text-align:center;
-font-family:'Courier New', Courier, monospace;
-font-size: 36px;
+padding-left: 0px;
+padding-top: 20px;
+text-align: start;
+font-family:'Oswald', sans-serif;
+font-size: 30px;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 line-height: normal;
+
 }
 .buy {
     background: #201d11;
